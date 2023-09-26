@@ -35,7 +35,7 @@ jobs:
         run: |
           cd k8s
           kustomize edit set image goapp=leoferraz/argocd-fullcycle:${{ github.sha }}
-          cat Kustomization.yaml
+          cat kustomization.yaml
 
       - name: commit
         run: |
