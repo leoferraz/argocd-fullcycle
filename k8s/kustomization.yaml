@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: leoferraz/argocd-fullcycle
-  newTag: 0ebb85d8eed55a403d7291b1d8e8d850a4a9ba32
+  newTag: 9e00507b59eb4852105aa778c07c738a41feed0f
