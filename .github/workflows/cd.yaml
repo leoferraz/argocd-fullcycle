@@ -40,7 +40,7 @@ jobs:
       - name: commit
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.namo "Deploy Action"
+          git config --local user.name "Deploy Action"
           git commit -am "change image tag"
 
       - name: push
