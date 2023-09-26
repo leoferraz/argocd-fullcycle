@@ -39,9 +39,11 @@ jobs:
 
       - name: commit
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Deploy Action"
+          git config --local user.email "leo1806@gmail.com"
+          git config --local user.name "Leo"
           git commit -am "change image tag"
 
       - name: push
         uses: ad-m/github-push-action@master
+        with:
+          ggithub_token: ${{ secrets.GITHUB }} 
